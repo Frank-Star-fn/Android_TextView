@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.hello_world.MyTextView
+        android:id="@+id/tv_one"
+        android:text="@string/tv_one"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:shadowColor="@color/red"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <!--android:clickable="true"-->
+    <!--android:background="@color/red"-->
+
+
+</LinearLayout>
